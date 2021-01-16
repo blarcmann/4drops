@@ -15,7 +15,7 @@ export default function Home() {
 
   const switchTheme = () => {
     if (isMounted) {
-      setTheme(theme === "light" ? "dark" : "light");
+      setTheme(theme === "dark" ? "light" : "dark");
     }
   };
 
