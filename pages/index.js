@@ -66,7 +66,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex justify-center flex-col items-center mb-20">
-              <img className="h-auto w-20 mb-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="" />
+              <img className="h-auto w-20 mb-10" onClick={switchTheme} src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="" />
               <h1 className="text-4xl font-bold mb-4">We design software.</h1>
               <h2 className="text-4xl font-bold text-gray-400">Next-gen SaaS startups start here.</h2>
             </div>
